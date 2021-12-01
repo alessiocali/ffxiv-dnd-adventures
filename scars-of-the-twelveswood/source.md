@@ -17,10 +17,10 @@
   
   .achievement
   {
-      width: 16rem;
-      margin-top:20px;
-      margin-left:70px;
-      margin-bottom:20px
+      width: 50%;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
   }
   
   .item
@@ -33,7 +33,7 @@
   
   .desc-colbreak
   {
-      margin-top:10px
+      margin-top:5px
   }
   
 </style>
@@ -65,7 +65,25 @@ This is my first shot at writing a custom DnD x FFXIV adventure. While a player 
 > Whenever you find a note starting with **Large Groups** I will add notes and suggestions on how to adapt for larger (greater than 5) player groups.
 
 > ##### Eorzean Newcomers
-> If you see a note starting with **Eorzean Newcomers** those are good points in the narration for presenting some elements in the world of Hydaelyn that new players would not be aware of. I will also include references in the form of **EE1pX** or **EE2pX** (Encyclopaedia Eorzea 1 / 2 page X).
+> If you see a note starting with **Eorzean Newcomers** those are good points in the narration for presenting some elements in the world of Hydaelyn that new players would not be aware of. I will also include references in the form of **EE1 X** or **EE2 X** (Encyclopaedia Eorzea 1 / 2 page X).
+
+## Referenced Material
+
+When I need to make a reference to external sources, such an official or homebrew D&D manual, I shall do so in the following format: **ABC 123**, where **ABC** is a tag identifying the manual and **123** (or **123-456**) is the page (or page range) to consult. Refer to the following table for a list of used tags.
+
+| Tag | Referenced book |
+|:----|:----------------|
+| **BR**   | Basic rules  |
+| **TCoE** | Tashas's Cauldron of Everything |
+| **MEB**  | [Monsters of Eorzea and Beyond](https://www.gmbinder.com/share/-MA8Gcosm3gSpNBguS8-) |
+| **FFWC** | [FFXIV World Compendium](https://www.gmbinder.com/share/-Ma6YF0Bq_JzCldr32eK) |
+| **EE1/EE2** | Encyclopaedia Eorzea (Volume 1 / Volume 2) |
+
+\columnbreak
+
+### Monetary Conversion
+
+Following the convention established from the Final Fantasy XIV World Compendium, assume that 1 gil = 1 copper piece.
 
 ## Adventure Summary (Player Safe)
 In the verdant city of Gridania all labor to keep the Twelveswood safe and to live in perfect balance with nature... that is why the unsettling news of an horribly disfigured maiden's body found deep in its territory caused sudden alarm among common folks and the city guard both. The Order of the Twin Adder immediately dispatches a task force of young but promising recruits to the settlement of Bentbranch Meadows, in hope of shedding light on the macabre finding...
@@ -74,53 +92,53 @@ In the verdant city of Gridania all labor to keep the Twelveswood safe and to li
 
 Please use the GM Binder Contact button to send me any suggestion you might have for improvements - I still have a lot to learn to make a good adventure!
 
-\columnbreak
+\pagebreakNum
  
 ## Presenting the world of Hydaelyn
 As veteran Final Fantasy XIV players well know, Hydaelyn (and its universe) is a large world inhabited by all sorts of creatures, with its own geography, history, conflicts and rules of physics. While I would encourage the narrator to present relevant elements as they come, a brief introduction could be useful to clear up some points, without tiring the players with hours long monologues on the applications of aetherology to the fishing techniques of the early settlers of Vylbrand. Speaking of which...
 
 ### Aether
-While aetherology on its own is a huge subject (**EE1p008** for the basics) its importance and pervasiveness in the Final Fantasy XIV universe is such that the players should at the very least know this: all living matter, in one way or the other, is comprised of aether. Aetherial energy can be further subdivided in six elements - fire, wind, ice, water, lightning and earth - and two poles - astral and umbral. Manipulation of natural aether is what Eorzeans call "magic".
+While aetherology on its own is a huge subject (**EE1 008** for the basics) its importance and pervasiveness in the Final Fantasy XIV universe is such that the players should at the very least know this: all living matter, in one way or the other, is comprised of aether. Aetherial energy can be further subdivided in six elements - fire, wind, ice, water, lightning and earth - and two poles - astral and umbral. Manipulation of natural aether is what Eorzeans call "magic".
 
 #### Aetherytes and the Aetherial Plane
-While this module does not involve aetherytes for transportation, the Narrator might decide to introduce them as landmarks for the players exploration, which in turn might pick the players' curiosity. As a brief explanation, aetherytes are what allow teleportation magic in Eorzea, which relies on decomposing one's own body into its aetherial constituents, then sending it through a dimension of pure aether - parallel to the more commonly experienced "material" plane - to allow instant travel between far locations. Aetherytes act as both bridges and beacons between the two planes, preventing travelers from getting lost in the sea of aether. See **EE1p010**.
+While this module does not involve aetherytes for transportation, the Narrator might decide to introduce them as landmarks for the players exploration, which in turn might pick the players' curiosity. As a brief explanation, aetherytes are what allow teleportation magic in Eorzea, which relies on decomposing one's own body into its aetherial constituents, then sending it through a dimension of pure aether - parallel to the more commonly experienced "material" plane - to allow instant travel between far locations. Aetherytes act as both bridges and beacons between the two planes, preventing travelers from getting lost in the sea of aether. See **EE1 010**.
 
 ### The Eorzean / Aldenard Continent
-The biggest and most aether-rich continent of Hydaelyn, Eorzea's territory is split among four different city-states: the forest city of Gridania, the sultanate of Ul'dah, the pirate-state of Limsa Lominsa and the Holy See of Ishgard. With the exception of the latter, all three are protected by the so called Grand Companies, military corps tasked with administering justice and guarding the common folks: Gridania's Twin Adders, Ul'dah's Immortal Flames and Limsa Lominsa's Maelstorm. See **EE1p012**.
+The biggest and most aether-rich continent of Hydaelyn, Eorzea's territory is split among four different city-states: the forest city of Gridania, the sultanate of Ul'dah, the pirate-state of Limsa Lominsa and the Holy See of Ishgard. With the exception of the latter, all three are protected by the so called Grand Companies, military corps tasked with administering justice and guarding the common folks: Gridania's Twin Adders, Ul'dah's Immortal Flames and Limsa Lominsa's Maelstorm. See **EE1 012**.
 
 #### The common tongue
-If anyone is wondering, there is a Common language spoken on Hydaelyn, and it is in fact the Eorzean language, originated from Hyuran settlers of Aldenard. It has its own alphabet, which maps one-to-one to the English alphabet, although barely half of the population of Eorzea is literate. The Eorzean is also spoken among beast tribes, although many have their own ticks and quirks about it (**EE2p034**).
+If anyone is wondering, there is a Common language spoken on Hydaelyn, and it is in fact the Eorzean language, originated from Hyuran settlers of Aldenard. It has its own alphabet, which maps one-to-one to the English alphabet, although barely half of the population of Eorzea is literate. The Eorzean is also spoken among beast tribes, although many have their own ticks and quirks about it (**EE2 034**).
 
-\pagebreakNum
+\columnbreak
 
 ### The Garlemald Empire
-While not pivotal to this story, the Garlemald Empire cannot be ignored for its role played in the Calamity. Homed in the northern continent of Ilsabard, this once isolated nation has recently been favored by a sudden technological burst - the so called Magitek Revolution. Following its newly acquired military prowess, it has since started a campaign of conquer and annexation hostile to Eorzea. See **EE1p176.**
+While not pivotal to this story, the Garlemald Empire cannot be ignored for its role played in the Calamity. Homed in the northern continent of Ilsabard, this once isolated nation has recently been favored by a sudden technological burst - the so called Magitek Revolution. Following its newly acquired military prowess, it has since started a campaign of conquer and annexation hostile to Eorzea. See **EE1 176.**
 
 ### Beast Tribes and Primals
 The primary point of scorn for Legatus Gaius van Baelsar in its campaign for conquering Eorzea was the presence in its territory of numerous beastmen tribes, which have been known to wield a type of magic capable of summoning beasts of immense aetherial power, better known as primals (or eikons in the Garlean tongue), which said tribes venerate as godlike beings.
 
-While the true nature of primals is a matter of debate, the danger they pose to Hydaelyn itself is well known: in order to sustain their physical form, they rely both on the fervor of their believers and on the surrounding aether, which they keep consuming until none is left to bear life. What also makes them incredibly dangerous foes to face is their ability to enslave (or *temper*, as it is often said) whoever gets exposed to an excess of their own aether. The victim of tempering are forevermore bound to the primal, and no cure exists to these lost souls but a swift death. See **EE1p11** for more details on primals and tempering.
+While the true nature of primals is a matter of debate, the danger they pose to Hydaelyn itself is well known: in order to sustain their physical form, they rely both on the fervor of their believers and on the surrounding aether, which they keep consuming until none is left to bear life. What also makes them incredibly dangerous foes to face is their ability to enslave (or *temper*, as it is often said) whoever gets exposed to an excess of their own aether. The victim of tempering are forevermore bound to the primal, and no cure exists to these lost souls but a swift death. See **EE1 11** for more details on primals and tempering.
 
->##### More recent developments - Spoilers up to Shadowbringer 5.4
->While we are waiting for a much needed Encyclopaedia Eorzea III (please Koji make that happen) the interested Narrator should know these two facts:
+\pagebreakNum
+
+> ##### More recent developments - Spoilers up to Shadowbringer 5.4
+> While we are waiting for a much needed Encyclopaedia Eorzea III (please Koji make that happen) the interested Narrator should know these two facts:
 >
 > * There is nothing divine in primals. In fact, primal summoning is a form of ancient magic known as Creation Magic, capable of manifesting anything the caster can imagine through aetherial manipulation alone. The Ascians, originally wielders of such magic, have imparted this knowledge on beast tribes to further their agenda.
 > * Tempering is the result of two factors: mind corruption to subjugate the victim, and a strong aetherial imbalance towards the primal's element. While not even the Allagans could find a cure, the Scions of the Seventh Dawn have recently developed a method which, although vexing on the caster, can revert some less severe forms of tempering - those who have not gone as far as twisting the victim's body.
 
 #### (Un)Defining "Beastmen"
-It is worth mentioning that the definition of "beastmen", as opposed to "enlightened" races such those inhabithing the City-States of Eorzea, is one born of racism and political opportunity. In fact there is no objective mean of distinguishing the two, as it is very well exposed in **EE2p250**.
-
-\columnbreak
+It is worth mentioning that the definition of "beastmen", as opposed to "enlightened" races such those inhabithing the City-States of Eorzea, is one born of racism and political opportunity. In fact there is no objective mean of distinguishing the two, as it is very well exposed in **EE2 250**.
 
 ### Eorzea's Eras and the Calamity
-Eorzea's history has forever since been alternating times of prosperity (or Astral Eras) with times of decay (or Umbral Eras). Each Umbral Era has always been ushered by catastrophic events known as "Calamities" (see **EE1p014**), each aligned with a specific aetherial force - sudden floods of water, disastrous earthquakes, years long droughts - all except the very last one and most recent.
+Eorzea's history has forever since been alternating times of prosperity (or Astral Eras) with times of decay (or Umbral Eras). Each Umbral Era has always been ushered by catastrophic events known as "Calamities" (see **EE1 014**), each aligned with a specific aetherial force - sudden floods of water, disastrous earthquakes, years long droughts - all except the very last one and most recent.
 
 #### The Fall of Dalamud
 Five years before the start of A Realm Reborn an imperial machination led by legatus Nael Van Darnus has brought the fall of Hydaelyn's lesser moon - Dalamud - down on the continent of Eorzea, during the battle of Carteneau - Eorzea's last standing against Garlemald invasion. To everyone's surprise, the moon itself wasn't cause for concern, but its contents: from therein the elder primal, Bahamut, burst forth and laid waste to the entire continent in a matter of seconds.
 
 Before all could be lost, however, the Archon Louisoux Leveilleur conjured a potent sealing magic which ultimately spelled the dragon's - as well as the scholar's - demise. Little is known of what happened after, as no eye-witness seem to recall the moments immediately after - probably a side effect of the burst of magical energy due to Louisoux's incantation. The fall of Dalamud - and the subsequent rain of fire caused by Bahamut - would eventually be known simply as "The Calamity", and would mark the beginning of Eorzea's Seventh Umbral Era.
 
-A detailed recount of the Battle of Carteneau, as well as the descent of Dalamud and Van Darnus' twisted plans, can be found on **EE1p041-046**.
+A detailed recount of the Battle of Carteneau, as well as the descent of Dalamud and Van Darnus' twisted plans, can be found on **EE1 041-046**.
 
 \pagebreakNum
 
@@ -137,6 +155,8 @@ As they explore the manor, the party will start gathering clues on Lady Amandine
 Approaching Lady Amandine clues in hand, she will first deny any involvement, until finally, confronted with facts, she will reveal herself, as she turns into a Succubus. The party confronts the demonic Amandine an her Ahriman butler in a final battle and eventually manage to banish her. Following the battle they will get access to Amandine's personal chambers, which will hold more clues on her story and more than enough material to bring back.
 
 The investigation can potentially last more days. As days go by, the party will be invited to overstay as guests within the Manor's chambers. As time passes, more of Amandine's servants start to disappear, and the more obvious her involvement will be.
+
+\columnbreak
 
 ## Locations
 * **The Adder's Nest.** The headquarters of the Twin Adders, Gridania's Grand Company.
@@ -162,11 +182,11 @@ This is of course not the story of Haukke Manor presented in the game. I took th
 \pagebreakNum
 
 # The Adder's Nest
-<div class='descriptive'>
-  The wooden hall of Gridania's military are as noisy as ever. Weapons swinging, arrows piercing through the air to their targets, the young recruits repeat over and over the same maneuvers in order to master them and apply them on the field. 
-  
-  You are part of the White Wolves, a unit of freshmen and women who have yet to make themselves a name within their ranks. You all enlisted about the same time and report to the same commander. While your reasons and pasts are different, you learned to know each other through the daily life of being part of the Twin Adders.
 
+<div class='descriptive'>
+The wooden hall of Gridania's military are as noisy as ever. Weapons swinging, arrows piercing through the air to their targets, the young recruits repeat over and over the same maneuvers in order to master them and apply them on the field. 
+
+You are part of the White Wolves, a unit of freshmen and women who have yet to make themselves a name within their ranks. You all enlisted about the same time and report to the same commander. While your reasons and pasts are different, you learned to know each other through the daily life of being part of the Twin Adders.
 </div>
 
 You can then introduce each player and give them an opportunity to describe their characters. 
@@ -176,10 +196,10 @@ You can then introduce each player and give them an opportunity to describe thei
 
 <div class='descriptive'>
 You go on about your daily routine, studying tactics, exchanging advices with your peers, when suddenly your direct commander storms in the room and calls you out.
-  
-  The commander is a hyuran fellow some forty years old. Despite his role he tends to let go of military customs and assumes a fatherly attitude towards his subjects, playful more often than not, with a love for bad jokes. That is why when you spot the grave look on his face you deduce that something serious must have happened.
-  
-  *We have just received an alarming report from the nearby settlement of Bentbranch Meadows. The body of an Elezen maiden has been found in the area of Sorrel's Haven. Although her face has been horribly scarred, she has been identified as a certain __Idrenne Brotand__, daughter to one __Eldaux Brotand__, a retired chocobokeep. I would like you to depart immediately for the Central Shroud and conduct an investigation on the circumstances surrounding her death. Are there any questions?*
+
+The commander is a hyuran fellow some forty years old. Despite his role he tends to let go of military customs and assumes a fatherly attitude towards his subjects, playful more often than not, with a love for bad jokes. That is why when you spot the grave look on his face you deduce that something serious must have happened.
+
+*We have just received an alarming report from the nearby settlement of Bentbranch Meadows. The body of an Elezen maiden has been found in the area of Sorrel's Haven. Although her face has been horribly scarred, she has been identified as a certain __Idrenne Brotand__, daughter to one __Eldaux Brotand__, a retired chocobokeep. I would like you to depart immediately for the Central Shroud and conduct an investigation on the circumstances surrounding her death. Are there any questions?*
 
 </div>
 
@@ -212,7 +232,7 @@ Once the players are satisfied the commander will thus conclude:
 </div>
 
 > ##### Eorzean Newcomers - Elementals
-> Guardians of the Twelveswood, these creatures of pure aether have long since granted Gridanians' ancestors (the people of Gelmorra) the right to inhabit the Twelveswood. **EE1p231** and **EE1p037**.
+> Guardians of the Twelveswood, these creatures of pure aether have long since granted Gridanians' ancestors (the people of Gelmorra) the right to inhabit the Twelveswood. **EE1 231** and **EE1 037**.
 
 The party will then proceed to Gridania's Aetheryte Plaza, and from there to the local stables.
 
@@ -226,7 +246,7 @@ As you approach the stables you are greeted by the chocobokeep. The young Lalafe
 \pagebreakNum
 
 > ##### Eorzean Newcomers - Chocobos
-> Much like the horses of the Far East, these yellow-feathered birds are commonly employed all around Eorzea as steeds and pack animals. **EE1p184**.
+> Much like the horses of the Far East, these yellow-feathered birds are commonly employed all around Eorzea as steeds and pack animals. **EE1 184**.
 >
 > If you prefer a more down-to-business introduction to Chocobos for your party, consider running the following event instead of directly handing them off. However I would advice against doing so for larger groups which have been split, since you risk leaving the other half hanging for too long.
 
@@ -273,7 +293,7 @@ Here are some ways this can play out:
 
 * One player tries to distract the angry Treant while another is bringing down the Chocobo.
 * One player can try to quell the Treant (**DC 12 Nature** check) since they are not malign creatures on their own.
-* The party can face the Treant head-on. Treat it like an [Awakened Tree](https://www.dndbeyond.com/monsters/awakened-tree), **BR117**.
+* The party can face the Treant head-on. Treat it like an [Awakened Tree](https://www.dndbeyond.com/monsters/awakened-tree), **BR 117**.
  
 Like Koko before, bringing down Choco will either require the players skills (**DC 12 Animal Handling**) or a leaf of Gysahl Green.
 
@@ -291,16 +311,16 @@ A rapid *SNAP* echoes through, as the little fellow dodges a swift gnaw from a q
 
 </div>
 
-Boko is not one to let go easily. The party will either have to pass a **DC 15 Animal Handling** check if they don't have a Gysahl Green, otherwise the difficulty is lowered to **10** (but they still need to pass it). On a fail, Boko switches target and goes at the party ([Chocobo](https://www.gmbinder.com/share/-MA8Gcosm3gSpNBguS8-) **MEB7**). Unless the party declares a murderous intent, bringing the Chocobo down to 0 HP won't kill him but will rather calm him down enough.
-
 \pagebreakNum
+
+Boko is not one to let go easily. The party will either have to pass a **DC 15 Animal Handling** check if they don't have a Gysahl Green, otherwise the difficulty is lowered to **10** (but they still need to pass it). On a fail, Boko switches target and goes at the party ([Chocobo](https://www.gmbinder.com/share/-MA8Gcosm3gSpNBguS8-) **MEB 7**). Unless the party declares a murderous intent, bringing the Chocobo down to 0 HP won't kill him but will rather calm him down enough.
 
 > ##### Eorzean Newcomers - Moogles
 > These pesky little imps inhabit the Twelveswood - and not only - and are historically known to never leave their home easily. 
 > 
 > Recently, after the Calamity, some of the most adventurous of them have started to travel and spread out across the realm, often tending to certain itinerant duties like acting as postmen.
 >
-> They're a mischievous race and spend their times devising all sorts of pranks for their own amusement, and everyone else's annoyance. **EE1p256**. 
+> They're a mischievous race and spend their times devising all sorts of pranks for their own amusement, and everyone else's annoyance. **EE1 256**. 
 
 Once Boko is dealt with, the Moogle he was chasing will come out of a nearby hiding spot.
 
@@ -382,7 +402,7 @@ The party can inquire Eldaux about her daughter's occupation and whereabouts.
 * She had specifically asked her landlady, Amandine de Dartancours, to be given that task, so that she could visit her father briefly each day.
 
 >##### Eorzean Newcomers - Haukke Manor
->Once a place of cult on the western side of the Central Shroud, Haukke Manor was eventually sold by Gridania's Elder Seedseer to Lady Amandine de Dartancours, under the population's pressure that the place was too opulent for Gridania's standards. The word "Haukke" is of Padjali origin, and it means "to speak without words". **EE1p124**.
+>Once a place of cult on the western side of the Central Shroud, Haukke Manor was eventually sold by Gridania's Elder Seedseer to Lady Amandine de Dartancours, under the population's pressure that the place was too opulent for Gridania's standards. The word "Haukke" is of Padjali origin, and it means "to speak without words". **EE1 124**.
 
 \pagebreakNum
 
@@ -412,7 +432,9 @@ Be as it may, if the party fails to extract any relevant information from Eldaux
 
 Whether from Eldaux himself, or by inquiring the locals about Idrenne's business at the Meadows, the party can eventually get the name of a certain **Pashe Nupashe**, a Plainsfolk Lalafell who work as a miller and baker.
 
-<div class='descriptive'>
+\columnbreak
+
+<div class='descriptive desc-colbreak'>
 Directing your sight towards the Aetheryte, you notice the large watermill at the edge of the White Vein. Not far from there, you see a middle-aged grizzled Lalafell, directing laborers left and right as they move piles of wheat to be processed.
   
   As you approach him you notice his dusty apron and floured hands, which leave little doubts as to his professions.
@@ -445,24 +467,22 @@ If pressed regarding Idrenne's "mistress":
 
 </div>
 
+\pagebreakNum
+
 ### On the Road to Haukke Manor
 In one way or the other it will be made clear that the next stop for the party's investigation is further west, up the Matron's Lethe and to Sorrel Haven, straight to Haukke Manor.
 
 <div class='descriptive'>
    
-   You're back on your chocobos, and head back north from whence you came. This time though, instead of crossing back the Vein, you turn to your left, and are greeted by one of Central Shroud's most impressive view: firmly buried into the ground, emerging from an higher ground tens of yalms above, there lies an enormous tree root more than a hundred yalms long - the Matron's Lethe.
-  
-  In the years following the Calamity, when the Central Shroud has been split in half - a lower and upper part - the Lethe has been since used and built upon by Gridanians as a sort of natural bridge. A short wooden platform connects its base to the lower ground, and provides easy access to all travelers. You have no difficulty bringing your Chocobos up the Lethe, as its width poses no risk of falling down.
-  
-</div>
+You're back on your chocobos, and head back north from whence you came. This time though, instead of crossing back the Vein, you turn to your left, and are greeted by one of Central Shroud's most impressive view: firmly buried into the ground, emerging from an higher ground tens of yalms above, there lies an enormous tree root more than a hundred yalms long - the Matron's Lethe.
 
-\pagebreakNum
+In the years following the Calamity, when the Central Shroud has been split in half - a lower and upper part - the Lethe has been since used and built upon by Gridanians as a sort of natural bridge. A short wooden platform connects its base to the lower ground, and provides easy access to all travelers. You have no difficulty bringing your Chocobos up the Lethe, as its width poses no risk of falling down.
 
-<div class='descriptive'>
-  
-  As you reach the top of the Lethe you find yourself in front of Dunstan's Spire, Sorrel Haven's watch tower. As you direct your gaze westward, you immediately spot a gaudy manor in the distance, its looks unmatched by anything of the like in the surrounding area.
+As you reach the top of the Lethe you find yourself in front of Dunstan's Spire, Sorrel Haven's watch tower. As you direct your gaze westward, you immediately spot a gaudy manor in the distance, its looks unmatched by anything of the like in the surrounding area.
 
 </div>
+
+\columnbreak
 
 > ##### Investigating Sorrel Haven
 > The keener players might remember that the maiden's body has been found exactly in Sorrel Haven. The party can optionally decide to interrogate the Adders stationed at Dustan's Spire on the matter of where the victim had been found. They will gladly help their colleagues, but will inform them that a previous squad had already carried their investigation on the spot and taken anything of relevance.
@@ -500,7 +520,7 @@ Ursandel spared no effort in trying to restore Amandine's beauty. He started res
 The anonymous mailer was of course leaving the details on what this "pact" would entail for the mortal forging it - but it didn't matter for Amandine, and so Ursandel was tasked for researching the history of Mhach to a great deal. Amandine was a bibliophile of sort, and her personal library was certainly not lacking on history treaties on the War of the Magi and their conflicting parties.
 
 > ##### Eorzean Newcomers: Mhach
-> Established around the five-hundredth year of the fifth Astral Era, the City-State of Mhach was well known and feared for its prowess in Black and Void Magic. **EE1p030-035**.
+> Established around the five-hundredth year of the fifth Astral Era, the City-State of Mhach was well known and feared for its prowess in Black and Void Magic. **EE1 030-035**.
 
 And so it began Ursandel's feverish collection of Mhachi artifacts, forbidden tomes and black market deals on behalf of his Lady.
 
@@ -512,6 +532,8 @@ The ritual was not a simple matter though and would require almost a fortnight t
 
 A room within the Manor's cellars was dedicated to the summoning, and its entrance hidden to privy eyes with a glamor spell. Eventually the ritual was started and Halicarnassus made her appearance into the manor, albeit only as a projection. As she manifested though, she took the sorcerer's life as her first prize, as he was sucked in through the rift that was opened to the Void.
 
+As part of Halicarnassus' meddling, all servants of Haukke Manor forgot that their Lady was ever confined within her bedroom: to them, nothing in particular happened in the years following the Calamity, and only recall Amandine laboring to offer shelter to the people of Bentbranch Meadows - but not the following accident.
+
 From there on the voidsent required one sacrifice be made to her every odd day, each being from a virgin woman not twenty and five years older. With each sacrifice Amandine's scars started to disappear, and by the third one - poor Idrenne - they were completely be gone.
 
 This was not, however, the only change. As the ritual progressed both Amandine and Ursandel would attune to the wicked creatures of the void, assuming their traits and turning into one themselves - Amandine a **Succubus**, and Ursandel an **Ahriman**. Halicarnassus granted them with a potent illusion spell, so that they could progress in the ritual without rising suspicions.
@@ -522,11 +544,11 @@ Seven sacrifices were demanded, before the ritual could be completed. Seven sacr
 
 The maidservants of the Manor were chosen as candidate sacrifices for progressing the ritual. The method was simple: on the morning a victim was chosen, Ursandel would personally meet her and cast a potent charming spell. The victim would then be convinced that she has to leave service for one reason or the other, and be sure to let that known to a handful of confidants; this way the other servants would have not started questioning the maiden sudden disappearance.
 
+\pagebreakNum
+
 The victim was then instructed to, after leaving the manor, make rounds around it and into a secret passage on the back hidden by vines, which reveals an underground tunnel into the Manor's secret chamber in the cellar. There Ursandel and Amandine would be waiting and bind the maiden to perform the sacrifice. The body would then be disposed by Ursandel himself not far from the Manor.
 
 The way things stand, five victims have already been sacrificed, and only one of them (Idrenne) has actually been found.
-
-\pagebreakNum
 
 ### On the ritual itself
 Each sacrifice consisted of two gruesome steps:
@@ -607,6 +629,8 @@ They're not able to discern the source of the disturbance, but it will prevent t
 
 If they pass, they will be able to discern among the chaos a trail of dark aether which, if followed through, will lead to the cellars and right in front of the ritual chamber's hidden door.
 
+<br><br><br>
+
 ## Ursandel's Illusions
 
 As it stands, Ursandel **really** doesn't want the party to stick their noses where they don't belong, but at the same time cannot refuse their direct requests in order to not arise suspicions. As long as Ursandel is nearby the players won't be able to gather any clue or notice anything out of place.
@@ -615,7 +639,11 @@ If the party asks to be accompanied into the Second Floor or Cellar chambers, or
 
 The party won't be able to tell that nothing is amiss and both rooms will look perfectly normal. However the moment they are away from him a **DC 15 Insight** check will make them question their own memories "Wait was the mirror intact or broken? Wasn't there a desk in there...?". Repeat the check every time they finish investigating a room; subsequent success will clear their mind a bit and make them realize the butler's presence was the cause of their discomfort.
 
-<div class="wide" style='margin-top:50px'>
+## Halicarnassus' "Blessing"
+
+In order to protect the investigation from ending too early, assume both Ursandel and Amandine to be immune from both Charming and any compulsory effect. This includes spells such as Zone of Truth that would force them to reveal uncomfortable details. As for the servants they are oblivious of the situation, and do not recall Amandine self-isolation in any way.
+
+<div class="wide">
 
 ##### Clues Table
 
@@ -658,6 +686,8 @@ The party won't be able to tell that nothing is amiss and both rooms will look p
 
 </div>
 
+\pagebreakNum
+
 ##### Loot Table
 
 <div class="wide">
@@ -670,9 +700,9 @@ The party won't be able to tell that nothing is amiss and both rooms will look p
 | 1   | Philter of Love                    | Servants Quarters (Men)         | -                |
 | 1   | Potion of Healing                  | Servants Quarters (Men)         | -                |
 | 3   | Golden Needles                     | Servants Quarters (Women)       | Investigation 15 |
-| 1   | Zircon Ring (50 GP)                | Servants Quarters (Women)       | -                |
+| 1   | Zircon Ring (5'000 gil)            | Servants Quarters (Women)       | -                |
 | 60  | Golden Pieces                      | Servants Quarters (Both, total) | -                |
-| 2   | Artifacts (25 GP)                  | Mhachi Stash                    | History 15       |
+| 2   | Artifacts (2'500 gil)              | Mhachi Stash                    | History 15       |
 | 1   | Immovable Rod                      | Mhachi Stash                    | -                |
 | 1   | Citrine Pendant                    | Cellars (room with bedroll)     | Investigation 10 |
 | 1   | Rapier + 1                         | Ursandel's Room                 | -                |
@@ -681,12 +711,95 @@ The party won't be able to tell that nothing is amiss and both rooms will look p
 | 45  | Golden Pieces                      | Ursandel's Room                 | -                |
 | 1   | Shadowfell Brand Tattoo (Uncommon) | Ritual chamber                  | -                |
 | 1   | Scroll of Charm Person             | Ritual Chamber                  | -                |
-| 1   | Star Rose Quart Diadem (50 GP)     | Amandine's Room (vanity)        | -                |
+| 1   | Star Rose Quart Diadem (5'000 gil) | Amandine's Room (vanity)        | -                |
 | 1   | Amulet of Health                   | Amandine's Corpse               | -                |
 | 100 | Golden Pieces                      | Amandine's Room (safe)          | Investigation 15 |
-| 2   | Pieces of Jewelry (50 GP)          | Amandine's Room (safe)          | Investigation 15 |
+| 2   | Pieces of Jewelry (5'000 gil)      | Amandine's Room (safe)          | Investigation 15 |
 
 </div>
+
+\pagebreakNum
+
+## The Servants of Haukke Manor
+
+Here is a convenient list of default NPCs that you can place as butlers and handmaids of Amandine Dartancours. This spread of characters reflects an Elezen-dominated environment, where some of them feel high enough of themselves as to dismiss the other races as inferior, or even bestial (like what happened to Rehce). Below their name there is also a specification as to whether this person is on Rehce's list of targets.
+
+### Male Elezen
+#### Auzeaux Graimirent
+
+*On Rehce's list.* This elder Wildwood Elezen is past his seventies yet not anywhere close to retirement. He is an antiquated, misogynistic and xenophobic individual, a fact that has not been changed by his time in the Manor's library, of which he is the main caretaker after Ursandel. 
+
+Despite the latter being higher on the manor's hierarchy of servants, he regards him as a younger fellow with little merits.
+
+#### Eaufleux Jasevant
+*On Rehce's list.* Eaufleux is a taciturn servant who prefers his actions to speak for himself. Despite being grumpy and mumbling complaints more often than not, he is a kind hearted fellow that helps others solving their troubles. Rehce mistakenly interprets his attitude for contempt, and holds a grudge against him for that.
+
+#### Eauphaux Goujat
+*On Rehce's list.* He is a young, arrogant womanizer with long brown hairs and a persistent cocky smug on his face. He has been systematically rejected by every woman he tried to court, contrary to what he says. He his the self-proclaimed mentor of Alfex, and the two are often seen together gossiping and commenting about the maidservants or the girls of Bentbranch. 
+
+#### Alfex Maucert
+*On Rehce's list.* With his delicate, puffy boy face, one would assume him to be the spoiled scion of some noble house. He is not very tall compared to others of his race and has short brown hair. He has a poorly concealed crush for Nosette, and hides a philter of love in his personal night table - a trick suggested by his close friend, Eauphaux.
+
+#### Triroux Nuipert
+Triroux is a young man in his early twenties, with short blond hair and an absent look on his face. He is a bit of a simpleton from a farmers' family who just gets along with everyone. He is one of the few Elezens to be on Rehce's good side.
+
+\columnbreak
+
+#### Pussant Kietireois
+He his the new kid, always making a mess and barely 15 years old. He his the bastard child of one of House Dartancours members. Despite his clumsiness, he is very clever and loves to spend his time in the library studying - a fact that made him the only younger servant that Auzeaux respects, or even cares for.
+
+### Female Elezen
+#### Reauphenne Valionne
+*On Rehce's list* A soothe-haired Elezen woman in her fifties, she is the chef of Haukke Manor. In her kitchen hall, she is queen, and everybody (except Amandine) is expected to obey her instructions. Despite her bossy attitude when in front of a pot, she seems to get along nicely with most - with the exception of Rehce, who gets the worst tasks from her.
+
+#### Nosette Sheapois
+She has short black hair and a serious attitude towards her duties. Being the youngest elezen woman under Amandine's service, she has become a constant and unwilling target of Alfex's affection, whom she constantly tries to push away.
+
+### Male Hyur
+#### Bertulf Century
+He is a middle aged man in his forties and going for fifty. He has brown hair, a dark-tinted skin and wears a pair of spectacles. Right after Ursandel, he his the most respected of Amandine's servants. In his free time, he practices playing the piano in the Red Hall. Some argue that he has studied some of the bardic arts and know how to weave an enchantment or two out of his notes.
+
+#### Mani Bloodfury
+Mani is a young ambitious man of just seventeen summers. He has short black hair and knows his way around a sword. He trains during his free time to one day join, he hopes, the Order of the Twin Adders.
+
+#### Theodgar Fisher
+He has a shy attitude and keeps to himself most the time. When he was a kid, he had one bad encounter with a Morbol, and a bad acid scar on half his face attests to that. He was saved by the Wood Wailers in the nick of time. Despite his secretiveness, he his kind if approached with care and knows a little bit of everyone.
+
+### Female Hyur
+#### Kamilla Windstorm
+She is blond, meek and kind girl with two eyes like that of a deer. She shies away from most except Cathrine, her confidant. In her free time she loves sewing and knitting, and is always at work to craft gifts for her friends and family. She is particularly fond of her younger brother who lives in Gridania.
+
+\pagebreakNum
+
+#### Cathrine Hornblade
+Cathrine is a strong willed, athletic midlander with a fierce look. Despite being considered as scary by some of her peers, she is a gregarious person that never says no to any chance of fun. During her youth she roamed the streets of Ul'dah as an Ala Mhigan refugee, and has learned the martial arts as a way to defend herself.
+
+### Female Miqo'te
+
+#### Rehce Xhatyoo
+The only Miqo'te under Amandine's service, Rehce is resentful after years of scorn from her elezen higher-ups. Prone to lying and superstitious, she has been plotting her personal revenge against her most hated colleagues, although with methods of questionable efficiency.
+
+\columnbreak
+
+## Dead Servants
+These women are the past sacrifice to Halicarnassus. Each of them used a certain excuse to be dismissed of service, after being charmed by Ursandel's spell. Here is a list of what each claimed to have done.
+
+### Elezen
+#### Ebionne Buirins
+After receiving a vision from the Twelve, she went roaming Eorzea to spread the word of the Mother.
+
+#### Omenne Draugand
+She left for raising her own crops as a farmer in Quarrymill.
+
+#### Lozonne Feaujelle
+She felt the call of adventure and left with just a dagger and a leather armor.
+
+#### Idrenne Brotand
+Claimed to need to assist her old father at Bentbranch Meadows.
+
+### Hyur
+#### Ellen Hellfist
+She claimed to have joined her sister in funding an enterprise.
 
 \pagebreakNum
 
@@ -736,6 +849,8 @@ The words *fair and fey* are circled with black ink, and a small note has been a
 
 </div>
 
+\columnbreak
+
 > ##### Succubus Lore
 > The text above can be found in the Encyclopaedia Eorzea, page 199, and in the in-game description of their Triple Triad Card.
 
@@ -763,9 +878,17 @@ The list goes on and on for tens of names, all healers, pharmacists or self call
 
 </div>
 
+Upon interrogating Ursandel on the matter of the list, he thus replies:
+
+<div class='descriptive'>
+*This? It's just a list of more or less reliable healers that have come and go to cure our staff. The last one is a thaumaturge that came to examine a large stack of Mhachi artifacts that Milady inherited from a distant relative.*
+</div>
+
 #### Other Loot
 
 The desk's other drawer can be forced open with a **DC 8 Strength** check, although failing it causes the lock to be busted for good and make it impossible to open. Inside there's a wooden tube containing a spell scroll of Disguise Self. 
+
+\pagebreakNum
 
 ### Servant Quarters
 
@@ -776,8 +899,6 @@ These two rooms are the resting area for the Manor's servants, one for men and o
 </div>
 
 The rooms are usually empty for most time of the day, since the menservants and maidens are off to their chores. Those assigned to the early morning duties start turning in by 7 pm already, and by 11 pm everyone is usually in their bed after all dishes from the daily dinner are washed. The quarters are also where the servants consume their meal, each according to their own schedule.
-
-\pagebreakNum
 
 #### Interacting with the Servants
 As said for the largest part of the day the servants will be scattered all around the Manor doing chores, so they will be found in random locations, and the quarters will be empty. If the party wants to track one specific character they can wait for him or her to retire for rest.
@@ -811,22 +932,24 @@ If the party peeks inside the drawers of each and every servant, they will also 
 
 ##### In the men's room
 
-* A [Philter of Love](https://www.dndbeyond.com/magic-items/philter-of-love) (**BR184**).
+* A [Philter of Love](https://www.dndbeyond.com/magic-items/philter-of-love) (**BR 184**).
 * A Potion of Healing.
-* A total of 30 GP.
+* A total of 3'000 gil.
 
 ##### In the women's room
 
-* A zircon ring worth 50 GP.
-* A total of 30 GP
+* A zircon ring worth 5'000 gil.
+* A total of 3'000 gil.
  
 
 > ##### Unwanted attentions
-> The Philter of Love belongs to one of the menservants, Alfex Muiloix, who desperately tries to gather the attentions of a colleague. The person in question, however, doesn't seem to feel the same for him. Beyond reason, he plans to force fate (and will) by using the Philter.
+> The Philter of Love belongs to one of the menservants, Alfex Maucert, who desperately tries to gather the attentions of a colleague. The person in question, however, doesn't seem to feel the same for him. Beyond reason, he plans to force fate (and will) by using the Philter.
 >
 > If you find it fitting for your narration, you can describe the events between the two as they unfold in the three following days, depending on whether the players take the potion for themselves or not.
 >
 > Will Alfex manage to trick his unwilling lover? Will that person fight back and turn him down once and for all? That's for you to decide.
+
+\pagebreakNum
 
 ### Guest rooms
 <div class='descriptive'>
@@ -836,8 +959,6 @@ These two rooms are for visitors of the manor who are welcomed to stay the night
 </div>
 
 The guest rooms themselves do not hold anything of relevance, and a quick investigation will make it clear. Do not count the passing of time if the players decide to run an investigation in there.
-
-\pagebreakNum
 
 ### Kitchen
 <div class='descriptive'>
@@ -858,6 +979,8 @@ With a **DC 12 Investigation** check the players will be able to spot, covered i
 It contains a list of about thirteen names, including, at the very bottom, Amandine herself. Some are too ruined to make them out. However it's obvious that four of them have been crossed out - including Idrenne's. There is also a note on the side of the first crossed name: *It worked! It finally worked!*. Right below it, the picture of a runic eye.
 
 Oddly enough, although the list contains both male and female names, all crossed names are female. They're also all Elezen names. If the players have already investigated the Servants Quarters and found the sachet and the scraps of paper, they will be able to match the writing with that of the notes.
+
+\columnbreak
 
 #### Interacting with Rehce
 The Keeper Miqo'te will be very defensive, and will try to avoid conversation if possible, complaining that she has a lot of work to do. If provoked by mentioning her bad blood with the Elezen colleagues, she will try to be dismissive as long as there are other servants in the room. Otherwise she will let go of her complaints of how she's always assigned the worst jobs, and treated like some kind of savage. 
@@ -882,6 +1005,8 @@ There are some obvious inconsistent facts that hint that Rehce is not actually r
 
 The final picture is that of a resentful, superstitious person which has attributed to herself events to which she was unrelated. The Narrator can / should let go of some of these facts if the party is struggling with it.
 
+\pagebreakNum
+
 > ##### The Eye in Sorrel Haven
 > That is all cool, but how did the Eye Pebble the party found in Sorrel Haven make his way there, if Idrenne's body was found naked? It so happened that Ursandel chanced upon the stone while depriving the victim of her clothes in preparation of the ritual and put it in his pocket for later investigation, but accidentally dropped it while disposing of the body. 
 
@@ -892,8 +1017,6 @@ If the players have already explored the Cellars and found the wall to the Ritua
 
 > ##### Rehce has been sacrificed
 > If Day 2 has come and Rehce was sacrificed, the party will find the Seal in her room, upon investigation.
-
-\pagebreakNum
 
 ### Storage Room
 <div class='descriptive'>
@@ -1004,7 +1127,7 @@ The room contains several of Ursandel's belongings, which amount to the followin
 
 * A rapier + 1 and five other regular rapiers.
 * A Potion of Healing
-* 45 GP
+* 4'500 gil
 
 The players can inspect the desk, whose drawers are unlocked. Behind a **DC 12 Perception** check they will notice one of them has a false bottom. There they'll discover **Ursandel's Diary**. Check the appendix for its contents, and recite some of the pages to the players.
 
@@ -1029,9 +1152,9 @@ From where you entered, on the right side, you spot a drawer with a mirror, whos
 
 </div>
 
-The room hides a safe (behind a painting, **DC 15 Investigation**) which contains 100 GP and two pieces of jewelry worth 50 GP each. 
+The room hides a safe (behind a painting, **DC 15 Investigation**) which contains 10'000 gil and two pieces of jewelry worth 5'000 gil each. 
 
-There is a vanity on the right side from the entrance, which contains three items: a diadem with a star rose quartz (worth 50 GP), Amandine's Diary, and an anonymous letter (from [page 10](#p11)):
+There is a vanity on the right side from the entrance, which contains three items: a diadem with a star rose quartz (worth 5'000 gil), Amandine's Diary, and an anonymous letter (from [page 10](#p11)):
 
 <div class= 'descriptive'>
 
@@ -1086,7 +1209,7 @@ Similarly to the Second Floor, the Cellars won't be shown during the initial tou
 ### The Mhachi Stash
 In one corner of the cellar the party will found, stored away, a huge pile of ancient magical artifacts of unknown origin. A **DC 15 Intelligence** or **History** check (with **advantage** if the party investigated the library) reveals that these artifacts belong to the fifth astral era, specifically to the civilization of Mhachi, whose sorcerers specialized in Black and Void magic were feared all around the world and one of the major parties in the War of the Magi.
 
-Among the garbage there are two artifacts of historical value (worth 25 GP each) and a curious contraption shaped like a tube (an [Immovable Rod](https://www.dndbeyond.com/magic-items/immovable-rod), **BR175**).
+Among the garbage there are two artifacts of historical value (worth 2'500 gil each) and a curious contraption shaped like a tube (an [Immovable Rod](https://www.dndbeyond.com/magic-items/immovable-rod), **BR 175**).
 
 Finding the stash is one of the prerequisites for unlocking the Mhachi Lockpick, which is one of the possible ways the party can gain access to Ursandel's room (see the chapter dedicated to the Second Floor for further details).
 
@@ -1099,7 +1222,7 @@ Further inspecting the wall (another **DC 15 Investigation** or **Arcana**) they
 
 ### Other rooms
 
-The other cells hold nothing of importance, and are filled with scrap wood or reserves of food. If the party investigates the room with a bedroll on the southern central area, they will find a citrine pendant worth 50 GP poorly hidden behind a loose brick (**DC 10 Investigation**). Probably left behind by a monk not exactly willing to partake of his earthly goods.
+The other cells hold nothing of importance, and are filled with scrap wood or reserves of food. If the party investigates the room with a bedroll on the southern central area, they will find a citrine pendant worth 5'000 gil poorly hidden behind a loose brick (**DC 10 Investigation**). Probably left behind by a monk not exactly willing to partake of his earthly goods.
 
 ### The Ritual Chamber
 
@@ -1124,9 +1247,11 @@ Inside the chamber the players will also find the following decisive proofs:
 
 They will also find some of the tools used by Ursandel to trick its victims and move in the shadows.
 
-* A scroll of [Charm Person](https://www.dndbeyond.com/spells/charm-person) (**BR221**)
-* An uncommon [Shadowfell Brand Tattoo](https://www.dndbeyond.com/magic-items/shadowfell-brand-tattoo) (**TCE134**)
+* A scroll of [Charm Person](https://www.dndbeyond.com/spells/charm-person) (**BR 221**)
+* An uncommon [Shadowfell Brand Tattoo](https://www.dndbeyond.com/magic-items/shadowfell-brand-tattoo) (**TCoE 134**)
     * If you don't have access to Tasha's, replace with any magical item granting advantage to Stealth checks.
+
+\pagebreakNum
 
 #### Reaching the chamber
 
@@ -1261,6 +1386,8 @@ Up the staircase in the foyer the party will reach the sealed door to Amandine's
 
 With Amandine slain and the servants (possibly) freed, the party has now more than enough proof to shed light on the destiny of Idrenne. With the contractor's demise, the void pact is now null, and the unsettling ritual chamber now appears no longer functional.
 
+With Halicarnassus out of the way, the fog clears from the servants' minds, and they start recalling the incident of the Calamity, and the years spent in reclusion by Amandine.
+
 Finally back to Gridania and away from the wicked Manor, the Yellow Jackets and the Adventurers will report what has happened in the Central Shroud. The Commander will further commend their success based on the following variables:
 
 * Did the party slay Halicarnassus in the middle of the ritual or not?
@@ -1333,7 +1460,7 @@ A sudden black vortex starts swirling around the two birds, as it twists their i
 
 </div>
 
-The party has been taken overnight by the voidsents spilling out of the portal established in the pact between Amandine and Halicarnassus. Split the party into smaller groups of at most 3 players, and have them face 2 monsters if they are 3, otherwise only 1. The monsters can be an [Imp](https://www.dndbeyond.com/monsters/imp) (**BR277**) or an Ahriman (check the Monsters Appendix).
+The party has been taken overnight by the voidsents spilling out of the portal established in the pact between Amandine and Halicarnassus. Split the party into smaller groups of at most 3 players, and have them face 2 monsters if they are 3, otherwise only 1. The monsters can be an [Imp](https://www.dndbeyond.com/monsters/imp) (**BR 277**) or an Ahriman (check the Monsters Appendix).
 
 When one of the monsters remains alone, he will run for his life out of the cell. If the party chases it it will lead them into the Ritual Chamber, whose door the party will find open.
 
@@ -1368,7 +1495,7 @@ Ursandel stands his ground, accompanied by one of the voidsents summoned forth f
 - **Enemies** Amandine ([Succubus](https://www.dndbeyond.com/monsters/succubus) **BR349**)
 - **Difficulty** Medium (4L4).
 - **Objective** Stop Amandine once and for all.
-- **Rewards** Stop the Ritual, access Amandine's chamber, 1 [Amulet of Health](https://www.dndbeyond.com/magic-items/amulet-of-health) (**BR150**).
+- **Rewards** Stop the Ritual, access Amandine's chamber, 1 [Amulet of Health](https://www.dndbeyond.com/magic-items/amulet-of-health) (**BR 150**).
 
 <div class="descriptive">
 
@@ -1387,10 +1514,10 @@ Amandine will try to avoid direct conflict whenever possible, laying low in the 
 Once Amandine is dead she will revert to her human form. The party can inspect her body and find an [Amulet of Health](https://www.dndbeyond.com/magic-items/amulet-of-health).
 
 ## Joint Effort
-- **Enemies** Ursandel, Amandine ([Succubus](https://www.dndbeyond.com/monsters/succubus) **BR349**)
+- **Enemies** Ursandel, Amandine ([Succubus](https://www.dndbeyond.com/monsters/succubus) **BR 349**)
 - **Difficulty** Deadly (4L4), Medium (6L4).
 - **Objective** Stop Amandine and her accomplice once and for all.
-- **Rewards** Stop the Ritual, access Amandine's chamber, 1 [Amulet of Health](https://www.dndbeyond.com/magic-items/amulet-of-health) (**BR150**).
+- **Rewards** Stop the Ritual, access Amandine's chamber, 1 [Amulet of Health](https://www.dndbeyond.com/magic-items/amulet-of-health) (**BR 150**).
 
 In this scenario the party will face both together. The party will find Amandine alone at first, but once everyone is inside Ursandel will step in and close the door behind him.
 
@@ -1422,7 +1549,7 @@ ___
 > ### Actions
 > ***Bite***. *Melee Weapon Attack*: +4 to hit, reach 5 ft., one target. *Hit*: 14 (4d6 + 1) piercing damage.
 > 
-> ***Blizzard.*** The Ahriman casts the [**Ice Knife**](https://www.dndbeyond.com/spells/ice-knife) spell (**EEp157**) (**DC 12 Saving Throw**).
+> ***Blizzard.*** The Ahriman casts the [**Ice Knife**](https://www.dndbeyond.com/spells/ice-knife) spell (**EE1 157**) (**DC 12 Saving Throw**).
 
 \columnbreak
 ___
@@ -1447,7 +1574,7 @@ ___
 > ### Actions
 > ***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 18 (6d4 + 3) piercing damage.
 >
-> ***Blizzard.*** The Ahriman casts the [**Ice Knife**](https://www.dndbeyond.com/spells/ice-knife) spell (**EEp157**) (**DC 12 Saving Throw**).
+> ***Blizzard.*** The Ahriman casts the [**Ice Knife**](https://www.dndbeyond.com/spells/ice-knife) spell (**EE1 157**) (**DC 12 Saving Throw**).
 >
 > ***Level 1 Petrify.*** The ahriman targets a humanoid it can see within 30 feet. The target must succeed on a DC 12 Constitution saving throw or be petrified for two rounds.
 
@@ -1687,36 +1814,25 @@ Amandine doesn't have the habit of noting the day so the date is missing.
 
 # Appendix D - Achievements
 
-<div class="descriptive achibox">
-
 <img src="https://www.gmbinder.com/images/St6rt1H.png" class="achievement">
 
-Awarded for "curing" a succubus-charmed companion by hitting him/her.
-
-</div>
-
-<div class='descriptive achibox'>
+Awarded for "curing" a succubus-charmed companion by hitting them.
 
 <img src="https://www.gmbinder.com/images/z1frkJI.png" class="achievement">
 
 Awarded for following Rehce as a small group and dying by the hand of Halicarnassus.
 
-</div>
-
 \columnbreak
 
-<div class='descriptive achibox desc-colbreak'>
 
 <img src="https://www.gmbinder.com/images/AlQbFtD.png" class="achievement">
 
 Awarded for concluding that Rehce is the real culprit.
 
-</div>
-
 \pagebreakNum
 
  <style>
-   .phb#p39:after { display:none; }
+   .phb#p44:after { display:none; }
  </style>
  
  <div class='back-cover-image'></div>
@@ -1789,5 +1905,11 @@ Minor corrections to the map (the grid was offset at 0, 0).
 
 ### 2 / 28 / 21 v1.2.1
 Fixed some bad overlapping the first and second floor maps.
+
+### 1 / 12 / 21 v1.3.0
+* Fixed formatting due to an apparent stealth update in GMBinder's metrics.
+* Added some specifications regarding a potential plot hole.
+* Added a section with a list of default servants for the Manor.
+* Converted monetary units from GP to gil.
 
 </div>
